@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav_links" id="nav_links">
+            <li class="links"><a href="#">Home</a></li>
+            <li class="links"><a href="#">About</a></li>
+            <li class="links"> <a href="#">Entertainment</a></li>
+            <li class="links"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav_links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+	<div class="container">
+		<div class="container-left">
+			<div class="left-content">
+				<h3> PHILIPLACE</h3>
+				<p>Our team created a website that will introduced the undiscovered places here in the philippines.
+				Let our team introduced to you the true beauty of the philippines.
+				</p>	
+			</div>
+		</div>
+		<div class="container-right">
+			<img src="boy (2).png" alt="boy">
+			<div class="right-content">
+				<h1>Welcome</h1>
+				<h4>We are your tourist guide</h4>
+				<p>
+					Welcome to our travel website, where we pride ourselves on being the
+					best guide for you in your wanderlust adventure. Whether you're seeking
+					sun-soaked beaches, or thrilling outdoor escapades, we've got you covered.
+				</p>
+				<br>
+				<br>
+				<p>
+				<b>Please signup if you dont have account yet, if you do already have a account please proceed to log in section.
+				</p>
+				<div class="action-btns">
+					<a href="signup.html"><button class="btn primary-btn" >Sign up</button></a>
+					<a href="login.html"><button class="btn secondary-btn" >Log in</button></a>
+				</div>
+				<div class="social">
+					<span><i class="ri-facebook-circle-fill"></i></span>
+					<span><i class="ri-mail-fill"></i></span>
+					<span><i class="ri-instagram-fill"></i></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
